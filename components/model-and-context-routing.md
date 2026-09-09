@@ -49,6 +49,12 @@ Every responsibility should receive the smallest complete context:
 
 Broad-context decision roles may inspect several project surfaces. A fresh Executor should normally receive the resolved task contract and its named references. A Reviewer should receive the claim, output state, and evidence needed for its lens—not the author’s full reasoning transcript.
 
+### Fresh context is the default, not a universal rule
+
+Repair is the measured exception. When a task comes back for a bounded fix on work that just landed, resuming the same Executor is markedly cheaper than dispatching a new one: the replacement has to rediscover the same files, the same decisions, and the failure itself before it can make its first edit, and it pays that cost on every repair round.
+
+Start fresh for a new task, where a clean context removes the author’s bias. Resume for a repair to the task just completed, where that bias is the working knowledge being repaired. Treating freshness as unconditional buys independence nobody needed and pays for it in orientation.
+
 ## Escalation is evidence-driven
 
 Do not silently switch models until an answer looks plausible. When a configuration fails:

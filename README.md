@@ -15,7 +15,7 @@ This is not a claim that every pattern here is new, or that this is the correct 
 | benefits from separate planning, execution, and review | [Level 3 — Separated Lifecycle](levels/3-separated-lifecycle.md) |
 | should run through repeated tasks with bounded human involvement | [Level 4 — Governed Autonomy](levels/4-governed-autonomy.md) |
 
-A large project does not need to use one level for everything. A routine task may use Level 1 while a high-impact workstream in the same project uses Level 4.
+A large project does not need to use one level for everything. A routine task may use Level 1 while a high-impact workstream in the same project uses Level 4. The one prerequisite is that Level 4 automates the Level 3 loop, so that loop must already work by hand before it is worth automating — see [Choosing a level](docs/choosing-a-level.md).
 
 > Use the lowest level that can reliably handle the work.
 

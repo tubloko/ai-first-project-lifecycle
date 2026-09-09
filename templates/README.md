@@ -43,12 +43,14 @@ Templates are starting shapes. Remove sections that do not protect a real bounda
 | Template | L1 | L2 | L3 | L4 |
 |---|:---:|:---:|:---:|:---:|
 | Task Brief | required | common | optional | optional |
+| Project Instructions | — | required | required | required |
 | Current State | — | required | required | required |
 | Task Contract | — | optional | required | required |
 | Decision Record | — | as needed | as needed | as needed |
 | Evidence Bundle | — | optional | required | required |
 | Review Finding / Inbox | — | — | required | required |
 | Approval Log | — | as needed | required for human gates | required for human gates |
+| Model Routing | — | optional | optional | required |
 | Run Contract / Report | — | — | — | required |
 
 Pipeline-specific templates are added only when that pipeline is used.

@@ -30,6 +30,7 @@ flowchart LR
 
 ## Required artifacts
 
+- [Project instructions](../templates/project-instructions.md)
 - [Current state](../templates/current-state.md)
 - [Task brief](../templates/task-brief.md)
 - a small work queue inside `CURRENT_STATE.md` or a separate tracker;

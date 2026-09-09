@@ -46,6 +46,8 @@ Selects the next task, resolves required decisions, consults domain reports, and
 
 Starts with a fresh, bounded context. Implements the task without reopening resolved decisions. Stops when required information is missing or contradictory.
 
+Fresh context is the default for a new task, not a rule for every dispatch: a bounded repair to the task just completed is cheaper with the same Executor resumed. See [Fresh context is the default, not a universal rule](../components/model-and-context-routing.md#fresh-context-is-the-default-not-a-universal-rule).
+
 ### Reviewer
 
 Examines the actual result and its evidence against the task contract. By default, reports findings rather than changing the result.
@@ -56,9 +58,11 @@ Researches a recurring domain, maintains reusable knowledge, and produces dated 
 
 ## Required artifacts
 
+- [Project instructions](../templates/project-instructions.md)
 - [Current state](../templates/current-state.md)
 - [Task contract](../templates/task-spec.md)
 - [Decision record](../templates/decision-record.md)
+- [Evidence bundle](../templates/evidence-bundle.md)
 - [Review finding](../templates/review-finding.md)
 - [Review inbox](../templates/review-inbox.md)
 - [Approval log](../templates/approval-log.md) for human-only gates

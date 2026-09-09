@@ -51,6 +51,19 @@ Use this pattern:
 
 Do not count multiple restatements of one source as independent confirmation.
 
+## Locked decisions
+
+Some decisions are closed to re-litigation: a value, a boundary, or a definition that later work may use but not reopen. A lock is what keeps a decision durable across sessions that never saw the reasoning behind it, and it is the only defense against a project that re-decides the same question every week with slightly worse information.
+
+A lock may be replaced only by another lock. It is never dissolved by “this no longer seems necessary,” by a session that finds it inconvenient, or by nobody objecting. Unlocking requires all of:
+
+- a new value or rule with named provenance;
+- the invariant it holds in place of the one the old lock held — and if nothing is being protected any more, say so explicitly, because retiring a constraint is a larger decision than replacing one;
+- a record in every canonical home the old lock occupied, so the old value cannot survive somewhere as a live copy;
+- two independent signatures, where the second is not a rubber stamp: it comes from a role given only the proposal and its evidence, not the conversation that produced them.
+
+Granting an autonomous workflow the authority to unlock without this procedure is not delegation. It is permission to undo earlier decisions one at a time, and it looks like progress while it is happening.
+
 ## Fail-closed transitions
 
 When a required approval is missing or ambiguous:

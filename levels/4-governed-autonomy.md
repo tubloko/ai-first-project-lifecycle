@@ -4,7 +4,7 @@ Allow an orchestrator to repeat the separated lifecycle across bounded tasks wit
 
 ## Use when
 
-- Level 3 already works reliably by hand;
+- Level 3 already works reliably by hand — this is a mechanical prerequisite, not a maturity requirement, because Level 4 automates that exact loop;
 - a queue contains several bounded tasks;
 - task readiness and completion are inspectable;
 - domain questions can be routed to roles with explicit contracts;

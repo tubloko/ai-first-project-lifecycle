@@ -76,9 +76,11 @@ Do not count a task as processed if a required verification step failed or was n
 
 Name the exact output state reviewed. For versioned projects, record a revision identifier. Moving targets create findings that cannot be reproduced.
 
+Scope review by the identifiers of the changes under review, not by the range between two points in history. A range silently absorbs anything else that entered the workspace in that window; where sessions share one working copy, review will then attribute other people’s changes to the work in front of it, and every finding will be true about the wrong author. See [Review that judged someone else’s work](../evolution/failure-stories/shared-workspace-review.md).
+
 ## Evidence bundle
 
-A Level 3 or Level 4 task should return:
+A Level 3 or Level 4 task should return the following, in the shape of [Evidence bundle](../templates/evidence-bundle.md):
 
 1. outcome summary;
 2. exact artifacts changed or produced;

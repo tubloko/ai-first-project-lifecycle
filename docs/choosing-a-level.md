@@ -2,6 +2,8 @@
 
 The four levels are independent operating configurations, not a course and not maturity badges. Choose a level for the work in front of you. Use a higher level only when its added controls solve a real problem.
 
+Independent does not mean interchangeable at any moment. Level 4 automates the Level 3 loop, so it takes a working Level 3 loop as an input: automating a loop that is unreliable by hand produces unreliable results faster, and hides them behind a run report. The choice of level is free; that one prerequisite is not.
+
 Level selection does not select a model. Choose model capability, reasoning effort, and context separately for each responsibility using [Model and context routing](../components/model-and-context-routing.md).
 
 ## Quick selector

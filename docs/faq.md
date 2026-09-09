@@ -20,6 +20,8 @@ No. Choose one Level and copy only its required artifacts. Add a specialized pip
 
 No. They are independent operating configurations. Level 4 is not inherently better than Level 1; it pays more coordination cost to control a different failure surface.
 
+One dependency is real, and it is mechanical rather than developmental: Level 4 automates the Level 3 loop, so it needs that loop to work by hand first. Everything else about the levels is a free choice per task or workstream.
+
 ## Can one project use several Levels?
 
 Yes. Select a Level per task or workstream. A routine edit may use Level 1 while a consequential multi-domain change in the same project uses Level 3 or 4.

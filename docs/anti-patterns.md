@@ -52,6 +52,10 @@ Historical files should not look current. Mark status and prevent normal context
 
 A task can fail while a run remains healthy, and a run can become unsafe while an individual task is valid. Define both task-stop and run-stop behavior.
 
+## Review scoped by a range
+
+Comparing two points in history includes everything that entered the workspace between them. Where sessions share a working copy, review then reports other people’s changes as findings against the work in front of it, and every finding is true about the wrong author.
+
 ## Stale queue premise
 
 A queue entry describes the project as it was when the entry was written. Work landed since then — including work landed by the current run — may already have satisfied it. Check the premise against current state before implementing it.

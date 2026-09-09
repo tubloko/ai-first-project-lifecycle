@@ -40,6 +40,10 @@ The exact command that verifies a task, its expected values, and the fixtures th
 
 A role or fresh session responsible for completing a bounded task contract without reopening settled decisions.
 
+## Lock
+
+A decision closed to re-litigation. A lock may be replaced only by another lock, with named provenance, the invariant it now holds, and independent confirmation — never by a session deciding it is no longer necessary.
+
 ## Landing
 
 The transition that makes a completed result part of the authoritative project state. Distinct from completion: work can be finished and unlanded.

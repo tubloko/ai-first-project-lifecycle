@@ -62,6 +62,14 @@ The finding is valid but outside the current contract. Move it to the canonical 
 
 The finding is unsupported, out of scope, based on stale state, or contradicted by stronger evidence. Record why.
 
+### Discard
+
+The finding is true, but nothing measurable follows from it. Record nothing at all.
+
+This disposition exists because the other four all end in a queue. Lenses running on every task produce findings faster than any project closes them, so a rule that routes every valid finding somewhere grows the backlog no matter how much work gets fixed. A backlog that only grows stops being read, and an unread queue costs more than the findings in it were worth.
+
+Apply one test before routing: what breaks, for whom, and when? A finding that cannot answer it is discarded at triage rather than filed. A finding with a consequence but no urgency belongs in a low tier that is deliberately excluded from session routing — and the honest form of that tier admits its entries may never be picked up.
+
 ## Completion invariant
 
 A task cannot be accepted while a blocking finding has no disposition. “Reviewer finished” is not the same as “review passed.”
